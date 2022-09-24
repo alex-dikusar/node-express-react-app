@@ -1,0 +1,8 @@
+build/
+package.json
+package-lock.json
+
+/server/build
+/server/db_data
+/server/package.json
+/server/package-lock.json

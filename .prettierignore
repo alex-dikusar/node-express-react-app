@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build/
+node_modules/
+package.json
+package-lock.json
+tsconfig.json
+.vscode/
+.idea/
+
+server/build/
+server/db_data/
+server/node_modules/

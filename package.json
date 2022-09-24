@@ -1,0 +1,17 @@
+{
+  "name": "node-express-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix src",
+    "lint-staged": "lint-staged",
+    "prettier:write": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.20",
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1"
+  }
+}

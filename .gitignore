@@ -1,6 +1,7 @@
 .idea
-/coverage
+/node_modules
 /build
+/coverage
 
 /server/node_modules
 /server/build
