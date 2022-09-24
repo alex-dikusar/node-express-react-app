@@ -1,3 +1,7 @@
 .idea
 /coverage
 /build
+
+/server/node_modules
+/server/build
+/server/db_data
