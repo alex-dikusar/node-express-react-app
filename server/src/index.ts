@@ -1,9 +1,14 @@
 import express, { Express } from 'express';
+import cors from 'cors';
 import './env';
 import db from './db';
+import './models';
 
 const app: Express = express();
 const port = process.env.PORT;
+
+app.use(cors);
+app.use(express.json());
 
 const startApp = async () => {
   try {
