@@ -5,13 +5,13 @@
   "scripts": {
     "lint": "eslint  \"**/*.{js,ts,tsx}\"",
     "lint:fix": "eslint --fix \"**/*.{js,ts,tsx}\"",
-    "lint-staged": "lint-staged",
     "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check ."
   },
   "devDependencies": {
     "@types/node": "^18.7.20",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.24.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",

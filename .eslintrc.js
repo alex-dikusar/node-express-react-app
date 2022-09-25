@@ -7,7 +7,8 @@ const prettierOptions = JSON.parse(
 
 module.exports = {
   extends: ['react-app', 'airbnb', 'plugin:jsx-a11y/recommended', 'prettier'],
-  plugins: ['jsx-a11y', 'prettier'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint', 'jsx-a11y', 'prettier'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],

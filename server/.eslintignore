@@ -1,0 +1,4 @@
+build/
+db_data/
+package.json
+package-lock.json
